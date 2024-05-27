@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import terrabellaflowers from "../../Assets/Projects/terrabellaflowers-landing.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import tcheck from "../../Assets/Projects/tcheck-landing.png";
+import avalla from "../../Assets/Projects/avalla-landing.png";
+import ballardblossom from "../../Assets/Projects/ballardblossom-landing.png";
+import antioxi from "../../Assets/Projects/antioxi-landing.png";
 
 function Projects() {
   return (
@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={avalla}
               isBlog={false}
               title="Avalla"
               description="Avalla is a beauty and wellness brand that offers a range of skincare and nutritional products. The Shopify store was designed to reflect the brand’s commitment to natural ingredients and a holistic approach to beauty. The site features a clean, modern design with intuitive navigation, allowing customers to easily find and purchase their desired products. Advanced filtering options and a personalized skincare quiz help enhance the shopping experience."
@@ -33,7 +33,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={antioxi}
               isBlog={false}
               title="Antioxi"
               description="Antioxi specializes in antioxidant-rich products, from supplements to skincare. The Shopify site was crafted to highlight the health benefits of antioxidants, with educational content seamlessly integrated into the shopping flow. The store’s vibrant and lively design mirrors the energy and vitality that the brand promotes. A subscription model was implemented to encourage repeat purchases and customer loyalty."
@@ -43,7 +43,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={tcheck}
               isBlog={false}
               title="TCheck"
               description="TCheck is an innovative company offering a device that measures the potency of cannabis-infused oils. The Shopify platform was utilized to not only sell the product but also to educate consumers on its use and benefits. The website features a sleek, tech-forward design with interactive elements such as video tutorials and a blog with industry-related articles."
@@ -53,7 +53,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={terrabellaflowers}
               isBlog={false}
               title="Terra Bella Flowers"
               description="Terra Bella Flowers is a florist shop that emphasizes sustainable and locally sourced flowers. The Shopify store was developed to showcase the shop’s unique floral arrangements and commitment to eco-friendly practices. The user interface is designed to provide a seamless and enjoyable experience, with features like same-day delivery options and custom arrangement builders."
@@ -63,7 +63,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={ballardblossom}
               isBlog={false}
               title="Ballard Blossom"
               description="Ballard Blossom is one of Seattle’s premier florists, known for its wide variety of fresh flowers and creative arrangements. The Shopify site was revamped to enhance the visual appeal and user experience. High-quality images of the floral arrangements take center stage, supported by detailed descriptions and care instructions. The checkout process was streamlined to ensure a quick and easy purchase."

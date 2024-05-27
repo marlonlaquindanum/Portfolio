@@ -13,8 +13,7 @@ function AboutCard() {
             <br />
             I am currently work as a shopify developer.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I have developed and launched multiple Shopify sites for clients in various industries, including fashion, beauty, and home goods.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
