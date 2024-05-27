@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import terrabellaflowers from "../../Assets/Projects/terrabellaflowers-landing.png";
+import terrabellaflowers from "../../Assets/Projects/terrabellaflowers-landing.webp";
 import emotion from "../../Assets/Projects/emotion.png";
-import tcheck from "../../Assets/Projects/tcheck-landing.png";
-import avalla from "../../Assets/Projects/avalla-landing.png";
-import ballardblossom from "../../Assets/Projects/ballardblossom-landing.png";
-import antioxi from "../../Assets/Projects/antioxi-landing.png";
+import tcheck from "../../Assets/Projects/tcheck-landing.webp";
+import avalla from "../../Assets/Projects/avalla-landing.webp";
+import ballardblossom from "../../Assets/Projects/ballardblossom-landing.webp";
+import antioxi from "../../Assets/Projects/antioxi-landing.webp";
 
 function Projects() {
   return (
