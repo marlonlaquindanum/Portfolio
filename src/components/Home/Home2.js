@@ -24,22 +24,22 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple">Shopify Liquid template language, Javascript and Typescript. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are building &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">E-commerce websites </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  Shopify.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">Shopify</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -67,7 +67,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/marlonlaquindanum/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

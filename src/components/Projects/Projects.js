@@ -25,10 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Avalla"
+              description="Avalla is a beauty and wellness brand that offers a range of skincare and nutritional products. The Shopify store was designed to reflect the brand’s commitment to natural ingredients and a holistic approach to beauty. The site features a clean, modern design with intuitive navigation, allowing customers to easily find and purchase their desired products. Advanced filtering options and a personalized skincare quiz help enhance the shopping experience."
+              demoLink="https://www.avalla.com/"
             />
           </Col>
 
@@ -36,10 +35,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Antioxi"
+              description="Antioxi specializes in antioxidant-rich products, from supplements to skincare. The Shopify site was crafted to highlight the health benefits of antioxidants, with educational content seamlessly integrated into the shopping flow. The store’s vibrant and lively design mirrors the energy and vitality that the brand promotes. A subscription model was implemented to encourage repeat purchases and customer loyalty."
+              demoLink="https://antioxi.co.uk/"
             />
           </Col>
 
@@ -47,10 +45,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="TCheck"
+              description="TCheck is an innovative company offering a device that measures the potency of cannabis-infused oils. The Shopify platform was utilized to not only sell the product but also to educate consumers on its use and benefits. The website features a sleek, tech-forward design with interactive elements such as video tutorials and a blog with industry-related articles."
+              demoLink="https://tcheck.me/"
             />
           </Col>
 
@@ -58,10 +55,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Terra Bella Flowers"
+              description="Terra Bella Flowers is a florist shop that emphasizes sustainable and locally sourced flowers. The Shopify store was developed to showcase the shop’s unique floral arrangements and commitment to eco-friendly practices. The user interface is designed to provide a seamless and enjoyable experience, with features like same-day delivery options and custom arrangement builders."
+              demoLink="https://www.terrabellaflowers.com/`"
             />
           </Col>
 
@@ -69,14 +65,13 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Ballard Blossom"
+              description="Ballard Blossom is one of Seattle’s premier florists, known for its wide variety of fresh flowers and creative arrangements. The Shopify site was revamped to enhance the visual appeal and user experience. High-quality images of the floral arrangements take center stage, supported by detailed descriptions and care instructions. The checkout process was streamlined to ensure a quick and easy purchase."
+              demoLink="https://ballardblossom.com/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -86,7 +81,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
